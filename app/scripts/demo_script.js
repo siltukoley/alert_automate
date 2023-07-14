@@ -320,7 +320,7 @@ function deleterow(request_id){
 
   function incomingslackwebhooks(textmessage){
     try {
-      const webhookUrl = 'https://hooks.slack.com/services/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';
+      const webhookUrl = '';
   
       let ip_address = process.env.IP_ADDRESS;
       const message = {
